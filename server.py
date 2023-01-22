@@ -69,7 +69,6 @@ def build_answer(fields):
                 details, web = extract_answer(fields[1])
                 res = validate_user(details)
                 if res == 'UserERR':
-                    #TODO: ANONYMOUS COOKIE WHEN ERROR
                     web = '/Error.html'
                 elif user[0] == 'ap':
                     CreateClientPages.validated_appraiser_page(details[0], details[1])
