@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <!--how will the page look-->
+    <style>
+        .nav a {color:black;text-align: center; font-size: 20px; padding: 10px 10px;font-family: 'assistant';}
+        .main{position: relative; top: 10px;text-align: center;font-size: 25px;}
+        .main{position: relative; top: 10px; text-align:center;font-family: assistant;}
+    </style>
+
+    <meta charset="utf-8">
+
+    <!--header-->
+    <head>
+        <title>יובי</title>    
+    </head>
+
+    <!--body: contains navigation bar and the main part, which contains some info about the team and a video-->
+    <body>
+
+        <div class="nav">
+            <a href="home.html">דף הבית</a>
+        </div>
+        
+        <div class="main">
+            <h1>התחבר לאתר</h1>
+            <form  action="/personalSpace.html">
+                <select id="area_code" name="ac">
+                    <option value="050">050</option>
+                    <option value="051">051</option>
+                    <option value="052">052</option>
+                    <option value="053">053</option>
+                    <option value="054">054</option>
+                    <option value="055">055</option>
+                    <option value="056">056</option>
+                    <option value="057">057</option>
+                    <option value="058">058</option>
+                    <option value="059">059</option>
+                  </select>
+                <label for="cellnum"> <input type="text" placeholder="מספר טלפון" name="number" required> <b>מספר טלפון</b> </label>
+                <br><br>    
+                <button type="submit">התחבר</button>
+            </form>
+
+        </div>
+    </body>
+</html>
